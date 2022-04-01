@@ -69,3 +69,16 @@ body{
     word-break: break-all;
  
 }
+
+
+
+.output .result-cal {
+  color: white;
+  font-size: 2rem;
+}
+
+
+.output .prev-operation {
+  color: white;
+  font-size: 1rem;
+}
