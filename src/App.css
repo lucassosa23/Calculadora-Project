@@ -28,3 +28,44 @@ body{
   grid-template-columns: repeat(4, 90px) ;
   grid-template-rows:  repeat(6, 80px);
 }
+
+
+     
+
+
+.but-dif {
+   color: aliceblue;
+   background-color: orange;
+   
+   
+   
+}
+
+.calculator-grid > button {
+    cursor: pointer;
+    font-size: 3rem;
+    font-weight: lighter;
+    color: black;
+    outline: none;
+   border: 1px solid white;
+   padding: 0px;
+     
+}
+
+.button-dif {
+    grid-column: 1/4;
+    
+}
+
+.output {
+    grid-column: 1 / -1;
+    background-color: black;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 10px;
+    word-wrap: break-word;
+    word-break: break-all;
+ 
+}
